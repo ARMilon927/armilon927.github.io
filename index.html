@@ -24,14 +24,47 @@
 
 	<!-- Theme CSS -->  
 	<link id="theme-style" rel="stylesheet" href="assets/css/theme-1.css">
+<style>
 
+	/* Container for centering (optional) */
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styling the image */
+.round-image {
+    width: 100px; /* Adjust as needed */
+    height: 100px; /* Adjust as needed */
+    border-radius: 50%; /* Makes the image round */
+    object-fit: cover; /* Ensures the image fills the circle */
+    max-width: 100%; /* Makes it responsive */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .round-image {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media (max-width: 480px) {
+    .round-image {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+</style>
 </head> 
 
 <body>
 	
 	<header class="header text-center">	    
 		<div class="force-overflow">
-			<h1 class="blog-name pt-lg-4 mb-0"><a class="no-text-decoration" href="index-2.html">Md. Abdur Rahman (Milon)</a></h1>
+			<h1 class="blog-name pt-lg-4 mb-0"><a class="no-text-decoration" href="index.html">Md. Abdur Rahman (Milon)</a></h1>
 			
 			<nav class="navbar navbar-expand-lg navbar-dark" >
 				
@@ -41,9 +74,9 @@
 				
 				<div id="navigation" class="collapse navbar-collapse flex-column" >
 					<div class="profile-section pt-3 pt-lg-0">
-						<img class="profile-image mb-3 rounded-circle mx-auto" src="assets/images/profile.png" alt="image" >			
+						<img class="profile-image mb-3 rounded-circle mx-auto" src="assets/images/Milon.jpg" alt="image" >			
 						
-						<div class="bio mb-3">Hi, my name is Md. Abdur Rahman (Milon) and I'm a software engineer. Welcome to my personal website!</div><!--//bio-->
+						<div class="bio mb-3">Hi, my name is Md. Abdur Rahman (Milon) and I'm a full-stack web developer and asp.net and angular expert. Welcome to my personal website!</div><!--//bio-->
 						<ul class="social-list list-inline py-2 mx-auto">
 							<!-- <li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li> -->
 							<li class="list-inline-item"><a href="https://www.linkedin.com/in/armilon927/" target="_blank"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
@@ -56,7 +89,7 @@
 					
 					<ul class="navbar-nav flex-column text-start">
 						<li class="nav-item">
-							<a class="nav-link active" href="index-2.html"><i class="fas fa-user fa-fw me-2"></i>About Me<span class="sr-only">(current)</span></a>
+							<a class="nav-link" href="index-2.html"><i class="fas fa-user fa-fw me-2"></i>About Me<span class="sr-only">(current)</span></a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="portfolio.html"><i class="fas fa-laptop-code fa-fw me-2"></i>Portfolio</a>
@@ -112,8 +145,8 @@
 					
 					<div class="col">
 						<h2 class="name font-weight-bold mb-1">Md. Abdur Rahman (Milon)</h2>
-						<div class="tagline mb-3">Software Engineer</div>
-						<div class="bio mb-4">I'm a software engineer specialised in frontend and backend development for complex scalable web apps. I write about software development on <a class="text-link" href="blog-home.html">my blog</a>. Want to know how I may help your project? Check out my project <a class="text-link" href="projects.html">portfolio</a> and <a class="text-link" href="resume.html">online resume</a>.
+						<div class="tagline mb-3">Full-Stack Web Developer: ASP.NET, Angular, MS SQL Expertise.</div>
+						<div class="bio mb-4">I'm a full-stack web developer specialised in frontend and backend development for complex scalable web apps. I write about software development on <a class="text-link" href="blog-home.html">my blog</a>. Want to know how I may help your project? Check out my project <a class="text-link" href="projects.html">portfolio</a> and <a class="text-link" href="resume.html">online resume</a>.
 						</div><!--//bio-->
 						<div class="mb-4">
 							<a class="btn btn-primary me-2 mb-3" href="portfolio.html"><i class="fas fa-arrow-alt-circle-right me-2"></i><span class="d-none d-md-inline">View</span> Portfolio</a>
@@ -131,7 +164,7 @@
 		<section class="overview-section p-3 p-lg-5">
 			<div class="container">
 				<h2 class="section-title font-weight-bold mb-3">What I do</h2>
-				<div class="section-intro mb-5">I have more than 2.5 years' experience building software for clients all over the world. Below is a quick overview of my main technical skill sets and technologies I use. Want to find out more about my experience? Check out my <a class="text-link" href="resume.html">online resume</a> and <a class="text-link" href="portfolio.html">project portfolio</a>.</div>
+				<div class="section-intro mb-5">I have more than 5 years' experience building software for clients all over the world. Below is a quick overview of my main technical skill sets and technologies I use. Want to find out more about my experience? Check out my <a class="text-link" href="resume.html">online resume</a> and <a class="text-link" href="portfolio.html">project portfolio</a>.</div>
 				<div class="row">
 					<div class="item col-6 col-lg-3">
 						<div class="item-inner">
@@ -211,7 +244,7 @@
 							<div class="item-inner">
 								<div class="quote-holder">
 									<blockquote class="quote-content">
-										Simon is a brilliant software engineer! Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.
+										Milon is a brilliant software engineer! It's a demo
 									</blockquote>
 									<i class="fas fa-quote-left"></i>
 								</div><!--//quote-holder-->
@@ -231,7 +264,7 @@
 							<div class="item-inner">
 								<div class="quote-holder">
 									<blockquote class="quote-content">
-										Simon is a brilliant software engineer! Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.
+										Milon is a brilliant software engineer! It's a demo
 									</blockquote>
 									<i class="fas fa-quote-left"></i>
 								</div><!--//quote-holder-->
@@ -251,7 +284,7 @@
 							<div class="item-inner">
 								<div class="quote-holder">
 									<blockquote class="quote-content">
-										Simon is a brilliant software engineer! Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.
+										Milon is a brilliant software engineer! It's a demo
 									</blockquote>
 									<i class="fas fa-quote-left"></i>
 								</div><!--//quote-holder-->
@@ -271,7 +304,7 @@
 							<div class="item-inner">
 								<div class="quote-holder">
 									<blockquote class="quote-content">
-										Simon is a brilliant software engineer! Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.
+										Milon is a brilliant software engineer! It's a demo
 									</blockquote>
 									<i class="fas fa-quote-left"></i>
 								</div><!--//quote-holder-->
@@ -291,7 +324,7 @@
 							<div class="item-inner">
 								<div class="quote-holder">
 									<blockquote class="quote-content">
-										Simon is a brilliant software engineer! Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.
+										Milon is a brilliant software engineer! It's a demo
 									</blockquote>
 									<i class="fas fa-quote-left"></i>
 								</div><!--//quote-holder-->
@@ -311,7 +344,7 @@
 							<div class="item-inner">
 								<div class="quote-holder">
 									<blockquote class="quote-content">
-										Simon is a brilliant software engineer! Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.
+										Milon is a brilliant software engineer! It's a demo
 									</blockquote>
 									<i class="fas fa-quote-left"></i>
 								</div><!--//quote-holder-->
@@ -341,13 +374,13 @@
 						<div class="card project-card">
 							<div class="row no-gutters">
 								<div class="col-12 col-xl-5 card-img-holder">
-									<img src="assets/images/project/project-1.jpg" class="card-img" alt="image">
+									<img src="assets/images/project/project-101.jpg" class="card-img" alt="image">
 								</div>
 								<div class="col-12 col-xl-7">
 									<div class="card-body">
-										<h5 class="card-title"><a href="project.html" class="theme-link">Project Heading</a></h5>
-										<p class="card-text">Project intro lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
-										<p class="card-text"><small class="text-muted">Client: Google</small></p>
+										<h5 class="card-title"><a href="project.html" class="theme-link">Easy Shopping</a></h5>
+										<p class="card-text">An eCommerce website is an online store where anyone can buy or sell products online. This is an eCommerce website build on backend with asp.net core web api and frontend with angular.</p>
+										<p class="card-text"><small class="text-muted">Self Project</small></p>
 									</div>
 								</div>
 							</div>
@@ -369,9 +402,9 @@
 								</div>
 								<div class="col-12 col-xl-7">
 									<div class="card-body">
-										<h5 class="card-title"><a href="project.html" class="theme-link">Project Heading</a></h5>
-										<p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
-										<p class="card-text"><small class="text-muted">Client: Dropbox</small></p>
+										<h5 class="card-title"><a href="project.html" class="theme-link">Calculator</a></h5>
+										<p class="card-text">This basic calculator app for math with addition, subtraction, division and multiplication. This app is built with Ionic Framework in android platform.</p>
+										<p class="card-text"><small class="text-muted">Self Project</small></p>
 									</div>
 								</div>
 							</div>
@@ -393,9 +426,9 @@
 								</div>
 								<div class="col-12 col-xl-7">
 									<div class="card-body">
-										<h5 class="card-title"><a href="project.html" class="theme-link">Project Heading</a></h5>
-										<p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
-										<p class="card-text"><small class="text-muted">Client: Google</small></p>
+										<h5 class="card-title"><a href="project.html" class="theme-link">Quiz App</a></h5>
+										<p class="card-text">This quiz app used for answering questions/quiz. It is built with asp.net core web api and angular </p>
+										<p class="card-text"><small class="text-muted">Self Project</small></p>
 									</div>
 								</div>
 							</div>
@@ -417,9 +450,9 @@
 								</div>
 								<div class="col-12 col-xl-7">
 									<div class="card-body">
-										<h5 class="card-title"><a href="project.html" class="theme-link">Project Heading</a></h5>
-										<p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
-										<p class="card-text"><small class="text-muted">Client: Uber</small></p>
+										<h5 class="card-title"><a href="project.html" class="theme-link">Business Management System (Web App) </a></h5>
+										<p class="card-text">The purpose of this project is to create a small business management system. This project is a web based application and an automation system which has features to manage a small business.</p>											
+										<p class="card-text"><small class="text-muted">Self Project</small></p>
 									</div>
 								</div>
 							</div>
@@ -450,7 +483,7 @@
 							<img class="card-img-top" src="assets/images/blog/blog-post-thumb-card-1.jpg" alt="image">
 							<div class="card-body">
 								<h5 class="card-title"><a class="theme-link" href="blog-post.html">Top 3 JavaScript Frameworks</a></h5>
-								<p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient...</p>
+								<p class="card-text">It's a demo text . . .</p>
 								<p class="mb-0"><a class="text-link" href="blog-post.html">Read more &rarr;</a></p>
 								
 							</div>
@@ -464,7 +497,7 @@
 							<img class="card-img-top" src="assets/images/blog/blog-post-thumb-card-2.jpg" alt="image">
 							<div class="card-body">
 								<h5 class="card-title"><a class="theme-link" href="blog-post.html">About Remote Working</a></h5>
-								<p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient...</p>
+								<p class="card-text">It's a demo text . . .</p>
 								<p class="mb-0"><a class="text-link" href="blog-post.html">Read more &rarr;</a></p>
 							</div>
 							<div class="card-footer">
@@ -478,7 +511,7 @@
 							<img class="card-img-top" src="assets/images/blog/blog-post-thumb-card-3.jpg" alt="image">
 							<div class="card-body">
 								<h5 class="card-title"><a class="theme-link" href="blog-post.html">A Guide to Becoming a Full-Stack Developer</a></h5>
-								<p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient...</p>
+								<p class="card-text">It's a demo text . . .</p>
 								<p class="mb-0"><a class="text-link" href="blog-post.html">Read more &rarr;</a></p>
 							</div>
 							<div class="card-footer">
@@ -493,7 +526,7 @@
 		</section><!--//latest-blog-section-->
 
 		<footer class="footer text-center py-4">
-			<small class="copyright">Template Copyright &copy; <a href="https://themes.3rdwavemedia.com/" target="_blank">3rd Wave Media</a></small>
+			<small class="copyright">Template Copyright &copy; <a href="https://armilon927.github.io/" target="_blank">Md. Abdur Rahman (Milon)</a></small>
 		</footer>
 		
 	</div><!--//main-wrapper-->
